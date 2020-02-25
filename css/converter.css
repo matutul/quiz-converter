@@ -1,0 +1,79 @@
+.main-body{
+    height: 100vh;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.converterbox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-image: url('../image/rightBackground.jpg');
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 2px 2px 6px gray;
+}
+.input, .results{
+    width: 95%;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 4px;  
+    flex-direction: row;
+    align-items: center;
+    border: 2px double ;
+}
+.results{
+    width: auto;
+    flex-direction: column;
+    color: black;
+    font-size: 130%;
+}
+.results span{
+    background-color: rgb(49, 49, 49);
+    color: white;
+    padding: 4px 10px;
+    border-radius: 4px 10px;
+}
+.input p, .input button, .input input{
+    margin: 5px;
+    font-size: 110%;
+}
+.input button, .input input{
+    padding: 5px;
+    border-radius: 5px;
+    background: none;
+    border: 1px solid white ;
+    color: white;
+    transition: .5s;
+}
+.input button{
+    padding: 5px 30px;
+}
+.input input{
+    padding-left: 15px;
+}
+.input button:hover{
+    background-color: rgb(230, 227, 101);
+    color: black;
+    border:1px solid transparent;
+}
+@media screen and (max-width: 900px){
+    .input{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .results{
+        font-size: 100%;
+    }
+}

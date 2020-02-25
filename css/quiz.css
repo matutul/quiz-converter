@@ -1,0 +1,70 @@
+.quiz{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.start{
+    max-width: 600px;
+    min-height: 300px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+.start h4{
+    margin-bottom: 10px;
+}
+.startq, .next{
+    align-self: flex-end;
+    margin-top: 50px;
+    padding: 4px 35px;
+    background-color: skyblue;
+    border-radius: 20px;
+    font-size: 120%;
+    box-shadow: 2px 2px 5px gray;
+    transition: .3s;
+    cursor: pointer;
+}
+.startq:hover, .next:hover{
+    background-color: tomato;
+}
+/* =====================question=================== */
+.questionbox{
+    width: 100%;
+    min-height: 200px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    position: relative;
+    padding: 30px;
+    display: none;
+}
+#questionstatus{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.next{
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+}
+.questionbox .timer{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+#answer{
+    margin: 20px 20px 60px 40px;
+    display: flex;
+    flex-direction: column;
+}
+#answer p{
+    margin: 5px 0;
+}
+.ques{
+    margin-top: 30px;
+}

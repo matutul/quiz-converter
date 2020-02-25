@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f23aed0610.js" crossorigin="anonymous"></script>
+    <title>JS Assignment</title>
+</head>
+<body>
+    <header>
+        <div class="topnav">
+            <div class="nav" id="myNav">
+                <a class="menuitem active" href="./index.html" onclick="makeActive(event)">Home</a>
+                <a class="menuitem" href="./html/converter.html" onclick="makeActive(event)">Converter</a>
+                <a class="menuitem" href="./html/quiz.html" onclick="makeActive(event)">Quiz</a>
+                <a class="menuitem" href="./html/about.html" onclick="makeActive(event)">About</a>
+                <a class="menuitem" href="./html/contact.html" onclick="makeActive(event)">Contact</a>
+            </div>
+            <div class="optionBar" onclick="openNav()">
+                <a href="javascript:void();" class="icon">
+                    <i class="fa fa-bars"></i>
+                </a>                
+            </div>
+        </div>
+        <div class="description">
+            <div class="abc">
+                <div class="info">
+                    <h2>Assignment 2</h2>
+                    <p>HTML, CSS and javascript based project consited with two differant task. One is currency converter and another is quiz test.</p>
+                    <div class="links">
+                        <a href="https://www.facebook.com/ashrafujjaman.tutul" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/mdatutul" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/md-ashrafujjaman-tutul-a34337154/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="./image/logo.png" alt="profile" width="200px">
+                </div>
+            </div>
+        </div>
+    </header> 
+    <!-- =============desc==================== -->
+    <div class="desc">
+        <div class="container content">
+            <div class="name">
+                <h3>Md Ashrafujjaman Tutul</h3>
+                <h4>ID: 171-15-9427<br>Section: B</h4>
+            </div>
+            <div class="res">
+                <h3>Responsive Web Design</h3>
+            </div>
+        </div>
+    </div>
+    <!-- ((((((((((((((((END OF HEADER)))))))))))))))) -->
+   
+    <!-- +++++++++++++++++++BODY CONTENT+++++++++++++ -->
+
+    <div class="main-content container">
+        <a href="./html/converter.html" class="taskbox left">
+            <div class="pic">
+                <h4>Currency Converter</h4>
+            </div>
+            <div class="details">
+                <h3>Currency Converter</h3>
+                <P>You can convert one currency into five difference currency.</P>
+            </div>
+        </a>
+        <a href="./html/quiz.html" class="taskbox right">
+            <div class="pic">
+                <h4>Quiz Test</h4>
+            </div>
+            <div class="details">
+                <h3>Quiz Test</h3>
+                <p>Take a short quiz test with 10 question and see the result.</p>
+            </div>
+        </a>
+    </div>
+    
+    <!-- ++++++++++++++++END OF BODY CONTENT+++++++++++++ -->
+
+    <!-- >>>>>>>>>>>>>>QUOTE SECTION (RANDOM UPDATE)<<<<<<<<<<<<<<< -->
+    <div class="quote container">
+        <p id="randomquote"></p>
+        <p id="speaker"></p>
+    </div>
+<!-- ((((((((((((((((((END OF QUOTE SECTION)))))))))))))))))) -->
+
+
+<!-- =================FOOTER SECTION================== -->
+    <footer>
+        <div class="container">
+            <h4>Developed by Md Ashrafujjaman Tutul.</h4>
+            <hr>
+            <div class="row">
+                <div class="person">
+                    <p>Name: Md Ashrafujjaman Tutul</p>
+                    <p>Section: B</p>
+                    <p>Versity ID: 171-15-9427</p>
+                    <p>University: Daffodil International University, Dhaka, Bangladesh.</p>
+                </div>
+                <div class="address">
+                    <address><u>Address</u><br>Area: Dhamrai.<br>City: Dhaka.<br>Region: Bangladesh.</address>
+                    
+                </div>
+                <div class="contact">
+                    <p><u>Contact:</u></p>
+                    <p>Email: ashrafujjamantutul@gmail.com<br>Mobile: +8801941071009.</p>
+                    <br><p><b><u>Links:</u></b> </p>
+                    <a href="https://www.facebook.com/ashrafujjaman.tutul" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/mdatutul" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/md-ashrafujjaman-tutul-a34337154/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/randomQuote.js"></script>
+</body>
+</html>
